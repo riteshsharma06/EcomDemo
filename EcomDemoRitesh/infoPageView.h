@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  infoPageView.h
 //  EcomDemoRitesh
 //
-//  Created by SoftBunch  on 8/9/16.
+//  Created by SoftBunch  on 8/10/16.
 //  Copyright © 2016 miimobileapp. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface infoPageView : UICollectionViewController
 
 @end
-

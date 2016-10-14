@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22C200041D5A2622000C8EE7 /* HeaderFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C200011D5A2622000C8EE7 /* HeaderFile.m */; };
+		22C200051D5A2622000C8EE7 /* MainPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C200031D5A2622000C8EE7 /* MainPageCell.m */; };
 		22C2FFCA1D5A23FE000C8EE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C2FFC91D5A23FE000C8EE7 /* main.m */; };
 		22C2FFCD1D5A23FE000C8EE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C2FFCC1D5A23FE000C8EE7 /* AppDelegate.m */; };
-		22C2FFD01D5A23FE000C8EE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C2FFCF1D5A23FE000C8EE7 /* ViewController.m */; };
 		22C2FFD31D5A23FE000C8EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C2FFD11D5A23FE000C8EE7 /* Main.storyboard */; };
 		22C2FFD51D5A23FE000C8EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C2FFD41D5A23FE000C8EE7 /* Assets.xcassets */; };
 		22C2FFD81D5A23FE000C8EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C2FFD61D5A23FE000C8EE7 /* LaunchScreen.storyboard */; };
 		22C2FFE31D5A23FE000C8EE7 /* EcomDemoRiteshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C2FFE21D5A23FE000C8EE7 /* EcomDemoRiteshTests.m */; };
 		22C2FFEE1D5A23FE000C8EE7 /* EcomDemoRiteshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C2FFED1D5A23FE000C8EE7 /* EcomDemoRiteshUITests.m */; };
+		22C2FFFD1D5A2411000C8EE7 /* MYNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C2FFFC1D5A2411000C8EE7 /* MYNViewController.m */; };
+		22C2FFFF1D5A252A000C8EE7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C2FFFE1D5A252A000C8EE7 /* 1.png */; };
+		22E2C3B51D5AEDE600EAFBE3 /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3B41D5AEDE600EAFBE3 /* FooterView.m */; };
+		22E2C3BA1D5AF6B800EAFBE3 /* productCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3B91D5AF6B800EAFBE3 /* productCollections.m */; };
+		22E2C3BD1D5B11B600EAFBE3 /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3BC1D5B11B600EAFBE3 /* ProductCell.m */; };
+		22E2C3C11D5B19FA00EAFBE3 /* OffersPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3C01D5B19FA00EAFBE3 /* OffersPageView.m */; };
+		22E2C3C41D5B1B0B00EAFBE3 /* offersCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3C31D5B1B0B00EAFBE3 /* offersCell.m */; };
+		22E2C3C71D5B324200EAFBE3 /* ListProductsCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3C61D5B324200EAFBE3 /* ListProductsCollection.m */; };
+		22E2C3CA1D5B325800EAFBE3 /* ListProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3C91D5B325800EAFBE3 /* ListProductCell.m */; };
+		22E2C3CF1D5B3C6C00EAFBE3 /* infoPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3CE1D5B3C6C00EAFBE3 /* infoPageView.m */; };
+		22E2C3D21D5B3D8000EAFBE3 /* KIImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3D11D5B3D8000EAFBE3 /* KIImagePager.m */; };
+		22E2C3D51D5B3FF800EAFBE3 /* infoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E2C3D41D5B3FF800EAFBE3 /* infoCell.m */; };
+		F925C6BD71D194D08399F1B0 /* libPods-EcomDemoRitesh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70421B57A8E8B2F2A7140B6D /* libPods-EcomDemoRitesh.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22C200001D5A2622000C8EE7 /* HeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		22C200011D5A2622000C8EE7 /* HeaderFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderFile.m; sourceTree = "<group>"; };
+		22C200021D5A2622000C8EE7 /* MainPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageCell.h; sourceTree = "<group>"; };
+		22C200031D5A2622000C8EE7 /* MainPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageCell.m; sourceTree = "<group>"; };
 		22C2FFC51D5A23FD000C8EE7 /* EcomDemoRitesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcomDemoRitesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C2FFC91D5A23FE000C8EE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22C2FFCB1D5A23FE000C8EE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22C2FFCC1D5A23FE000C8EE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		22C2FFCE1D5A23FE000C8EE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		22C2FFCF1D5A23FE000C8EE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		22C2FFD21D5A23FE000C8EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22C2FFD41D5A23FE000C8EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C2FFD71D5A23FE000C8EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,32 @@
 		22C2FFE91D5A23FE000C8EE7 /* EcomDemoRiteshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomDemoRiteshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C2FFED1D5A23FE000C8EE7 /* EcomDemoRiteshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EcomDemoRiteshUITests.m; sourceTree = "<group>"; };
 		22C2FFEF1D5A23FE000C8EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C2FFFB1D5A2411000C8EE7 /* MYNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNViewController.h; sourceTree = "<group>"; };
+		22C2FFFC1D5A2411000C8EE7 /* MYNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNViewController.m; sourceTree = "<group>"; };
+		22C2FFFE1D5A252A000C8EE7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		22E2C3B31D5AEDE600EAFBE3 /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		22E2C3B41D5AEDE600EAFBE3 /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
+		22E2C3B81D5AF6B800EAFBE3 /* productCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productCollections.h; sourceTree = "<group>"; };
+		22E2C3B91D5AF6B800EAFBE3 /* productCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productCollections.m; sourceTree = "<group>"; };
+		22E2C3BB1D5B11B600EAFBE3 /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		22E2C3BC1D5B11B600EAFBE3 /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		22E2C3BF1D5B19FA00EAFBE3 /* OffersPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersPageView.h; sourceTree = "<group>"; };
+		22E2C3C01D5B19FA00EAFBE3 /* OffersPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersPageView.m; sourceTree = "<group>"; };
+		22E2C3C21D5B1B0B00EAFBE3 /* offersCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offersCell.h; sourceTree = "<group>"; };
+		22E2C3C31D5B1B0B00EAFBE3 /* offersCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = offersCell.m; sourceTree = "<group>"; };
+		22E2C3C51D5B324200EAFBE3 /* ListProductsCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListProductsCollection.h; sourceTree = "<group>"; };
+		22E2C3C61D5B324200EAFBE3 /* ListProductsCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListProductsCollection.m; sourceTree = "<group>"; };
+		22E2C3C81D5B325800EAFBE3 /* ListProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListProductCell.h; sourceTree = "<group>"; };
+		22E2C3C91D5B325800EAFBE3 /* ListProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListProductCell.m; sourceTree = "<group>"; };
+		22E2C3CD1D5B3C6C00EAFBE3 /* infoPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoPageView.h; sourceTree = "<group>"; };
+		22E2C3CE1D5B3C6C00EAFBE3 /* infoPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoPageView.m; sourceTree = "<group>"; };
+		22E2C3D01D5B3D8000EAFBE3 /* KIImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImagePager.h; sourceTree = "<group>"; };
+		22E2C3D11D5B3D8000EAFBE3 /* KIImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIImagePager.m; sourceTree = "<group>"; };
+		22E2C3D31D5B3FF800EAFBE3 /* infoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoCell.h; sourceTree = "<group>"; };
+		22E2C3D41D5B3FF800EAFBE3 /* infoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoCell.m; sourceTree = "<group>"; };
+		4A3E2F1372CD16BDCB97E51E /* Pods-EcomDemoRitesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcomDemoRitesh.release.xcconfig"; path = "Pods/Target Support Files/Pods-EcomDemoRitesh/Pods-EcomDemoRitesh.release.xcconfig"; sourceTree = "<group>"; };
+		70421B57A8E8B2F2A7140B6D /* libPods-EcomDemoRitesh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EcomDemoRitesh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9788F39AA2EC6620B5D6A2 /* Pods-EcomDemoRitesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcomDemoRitesh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EcomDemoRitesh/Pods-EcomDemoRitesh.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F925C6BD71D194D08399F1B0 /* libPods-EcomDemoRitesh.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00EE09791710A4B5E922DDD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE9788F39AA2EC6620B5D6A2 /* Pods-EcomDemoRitesh.debug.xcconfig */,
+				4A3E2F1372CD16BDCB97E51E /* Pods-EcomDemoRitesh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		22C2FFBC1D5A23FC000C8EE7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +137,8 @@
 				22C2FFE11D5A23FE000C8EE7 /* EcomDemoRiteshTests */,
 				22C2FFEC1D5A23FE000C8EE7 /* EcomDemoRiteshUITests */,
 				22C2FFC61D5A23FD000C8EE7 /* Products */,
+				00EE09791710A4B5E922DDD7 /* Pods */,
+				2983B90A019CA4A85FBC0C8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +155,17 @@
 		22C2FFC71D5A23FE000C8EE7 /* EcomDemoRitesh */ = {
 			isa = PBXGroup;
 			children = (
+				22E2C3CC1D5B3C2A00EAFBE3 /* InfoPage */,
+				22E2C3CB1D5B325D00EAFBE3 /* ProductList */,
+				22E2C3BE1D5B197200EAFBE3 /* Offers */,
+				22E2C3B71D5AF65B00EAFBE3 /* CollectionCategories */,
+				22E2C3B61D5AF64000EAFBE3 /* MainPageController */,
 				22C2FFCB1D5A23FE000C8EE7 /* AppDelegate.h */,
 				22C2FFCC1D5A23FE000C8EE7 /* AppDelegate.m */,
-				22C2FFCE1D5A23FE000C8EE7 /* ViewController.h */,
-				22C2FFCF1D5A23FE000C8EE7 /* ViewController.m */,
+				22E2C3D01D5B3D8000EAFBE3 /* KIImagePager.h */,
+				22E2C3D11D5B3D8000EAFBE3 /* KIImagePager.m */,
 				22C2FFD11D5A23FE000C8EE7 /* Main.storyboard */,
+				22C2FFFE1D5A252A000C8EE7 /* 1.png */,
 				22C2FFD41D5A23FE000C8EE7 /* Assets.xcassets */,
 				22C2FFD61D5A23FE000C8EE7 /* LaunchScreen.storyboard */,
 				22C2FFD91D5A23FE000C8EE7 /* Info.plist */,
@@ -140,6 +200,73 @@
 			path = EcomDemoRiteshUITests;
 			sourceTree = "<group>";
 		};
+		22E2C3B61D5AF64000EAFBE3 /* MainPageController */ = {
+			isa = PBXGroup;
+			children = (
+				22C2FFFB1D5A2411000C8EE7 /* MYNViewController.h */,
+				22C2FFFC1D5A2411000C8EE7 /* MYNViewController.m */,
+				22C200001D5A2622000C8EE7 /* HeaderFile.h */,
+				22C200011D5A2622000C8EE7 /* HeaderFile.m */,
+				22C200021D5A2622000C8EE7 /* MainPageCell.h */,
+				22C200031D5A2622000C8EE7 /* MainPageCell.m */,
+				22E2C3B31D5AEDE600EAFBE3 /* FooterView.h */,
+				22E2C3B41D5AEDE600EAFBE3 /* FooterView.m */,
+			);
+			name = MainPageController;
+			sourceTree = "<group>";
+		};
+		22E2C3B71D5AF65B00EAFBE3 /* CollectionCategories */ = {
+			isa = PBXGroup;
+			children = (
+				22E2C3B81D5AF6B800EAFBE3 /* productCollections.h */,
+				22E2C3B91D5AF6B800EAFBE3 /* productCollections.m */,
+				22E2C3BB1D5B11B600EAFBE3 /* ProductCell.h */,
+				22E2C3BC1D5B11B600EAFBE3 /* ProductCell.m */,
+			);
+			name = CollectionCategories;
+			sourceTree = "<group>";
+		};
+		22E2C3BE1D5B197200EAFBE3 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				22E2C3BF1D5B19FA00EAFBE3 /* OffersPageView.h */,
+				22E2C3C01D5B19FA00EAFBE3 /* OffersPageView.m */,
+				22E2C3C21D5B1B0B00EAFBE3 /* offersCell.h */,
+				22E2C3C31D5B1B0B00EAFBE3 /* offersCell.m */,
+			);
+			name = Offers;
+			sourceTree = "<group>";
+		};
+		22E2C3CB1D5B325D00EAFBE3 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				22E2C3C51D5B324200EAFBE3 /* ListProductsCollection.h */,
+				22E2C3C61D5B324200EAFBE3 /* ListProductsCollection.m */,
+				22E2C3C81D5B325800EAFBE3 /* ListProductCell.h */,
+				22E2C3C91D5B325800EAFBE3 /* ListProductCell.m */,
+			);
+			name = ProductList;
+			sourceTree = "<group>";
+		};
+		22E2C3CC1D5B3C2A00EAFBE3 /* InfoPage */ = {
+			isa = PBXGroup;
+			children = (
+				22E2C3CD1D5B3C6C00EAFBE3 /* infoPageView.h */,
+				22E2C3CE1D5B3C6C00EAFBE3 /* infoPageView.m */,
+				22E2C3D31D5B3FF800EAFBE3 /* infoCell.h */,
+				22E2C3D41D5B3FF800EAFBE3 /* infoCell.m */,
+			);
+			name = InfoPage;
+			sourceTree = "<group>";
+		};
+		2983B90A019CA4A85FBC0C8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70421B57A8E8B2F2A7140B6D /* libPods-EcomDemoRitesh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22C2FFF21D5A23FE000C8EE7 /* Build configuration list for PBXNativeTarget "EcomDemoRitesh" */;
 			buildPhases = (
+				269D4475BD8E1030F4494121 /* [CP] Check Pods Manifest.lock */,
 				22C2FFC11D5A23FD000C8EE7 /* Sources */,
 				22C2FFC21D5A23FD000C8EE7 /* Frameworks */,
 				22C2FFC31D5A23FD000C8EE7 /* Resources */,
+				F1CD03790FA504A6C6B2CC02 /* [CP] Embed Pods Frameworks */,
+				5E3B3B502554170399451ED2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +337,7 @@
 				TargetAttributes = {
 					22C2FFC41D5A23FD000C8EE7 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7U24JHMS72;
 					};
 					22C2FFDD1D5A23FE000C8EE7 = {
 						CreatedOnToolsVersion = 7.3;
@@ -244,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C2FFD81D5A23FE000C8EE7 /* LaunchScreen.storyboard in Resources */,
+				22C2FFFF1D5A252A000C8EE7 /* 1.png in Resources */,
 				22C2FFD51D5A23FE000C8EE7 /* Assets.xcassets in Resources */,
 				22C2FFD31D5A23FE000C8EE7 /* Main.storyboard in Resources */,
 			);
@@ -265,14 +397,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		269D4475BD8E1030F4494121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E3B3B502554170399451ED2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcomDemoRitesh/Pods-EcomDemoRitesh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1CD03790FA504A6C6B2CC02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EcomDemoRitesh/Pods-EcomDemoRitesh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22C2FFC11D5A23FD000C8EE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22C2FFD01D5A23FE000C8EE7 /* ViewController.m in Sources */,
+				22E2C3C71D5B324200EAFBE3 /* ListProductsCollection.m in Sources */,
+				22E2C3CF1D5B3C6C00EAFBE3 /* infoPageView.m in Sources */,
+				22C200051D5A2622000C8EE7 /* MainPageCell.m in Sources */,
+				22E2C3BD1D5B11B600EAFBE3 /* ProductCell.m in Sources */,
+				22C200041D5A2622000C8EE7 /* HeaderFile.m in Sources */,
+				22E2C3D51D5B3FF800EAFBE3 /* infoCell.m in Sources */,
+				22C2FFFD1D5A2411000C8EE7 /* MYNViewController.m in Sources */,
+				22E2C3C11D5B19FA00EAFBE3 /* OffersPageView.m in Sources */,
+				22E2C3B51D5AEDE600EAFBE3 /* FooterView.m in Sources */,
 				22C2FFCD1D5A23FE000C8EE7 /* AppDelegate.m in Sources */,
+				22E2C3D21D5B3D8000EAFBE3 /* KIImagePager.m in Sources */,
 				22C2FFCA1D5A23FE000C8EE7 /* main.m in Sources */,
+				22E2C3CA1D5B325800EAFBE3 /* ListProductCell.m in Sources */,
+				22E2C3C41D5B1B0B00EAFBE3 /* offersCell.m in Sources */,
+				22E2C3BA1D5AF6B800EAFBE3 /* productCollections.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +556,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -411,22 +603,28 @@
 		};
 		22C2FFF31D5A23FE000C8EE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9788F39AA2EC6620B5D6A2 /* Pods-EcomDemoRitesh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EcomDemoRitesh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.miimobileapp.EcomDemoRitesh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miimobileapp.EcomDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		22C2FFF41D5A23FE000C8EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3E2F1372CD16BDCB97E51E /* Pods-EcomDemoRitesh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = EcomDemoRitesh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.miimobileapp.EcomDemoRitesh;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miimobileapp.EcomDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +694,7 @@
 				22C2FFF41D5A23FE000C8EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C2FFF51D5A23FE000C8EE7 /* Build configuration list for PBXNativeTarget "EcomDemoRiteshTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +703,7 @@
 				22C2FFF71D5A23FE000C8EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22C2FFF81D5A23FE000C8EE7 /* Build configuration list for PBXNativeTarget "EcomDemoRiteshUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +712,7 @@
 				22C2FFFA1D5A23FE000C8EE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

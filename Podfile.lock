@@ -1,0 +1,17 @@
+PODS:
+  - MYNStickyFlowLayout (0.1.2)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - MYNStickyFlowLayout
+  - SDWebImage (~> 3.8)
+
+SPEC CHECKSUMS:
+  MYNStickyFlowLayout: 64d0c409bd1ad43312485c63bc82e32f038e8fbc
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: e7a235cae25e08a24a0187a5548bd106dfb98a6a
+
+COCOAPODS: 1.0.1
